@@ -81,7 +81,54 @@ export default function HomePage() {
       </div>
 
       {/* Hero */}
-      <section className="text-center pt-16 pb-8 px-4">
+      <section className="text-center pt-16 pb-8 px-4 relative">
+        {/* Neural network background animation */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <svg className="w-full h-full opacity-[0.07]" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+            {/* Nodes */}
+            <circle cx="80" cy="100" r="4" fill="#818cf8"><animate attributeName="cy" values="100;120;100" dur="6s" repeatCount="indefinite" /></circle>
+            <circle cx="200" cy="200" r="3" fill="#a78bfa"><animate attributeName="cy" values="200;180;200" dur="5s" repeatCount="indefinite" /></circle>
+            <circle cx="350" cy="80" r="5" fill="#818cf8"><animate attributeName="cx" values="350;370;350" dur="7s" repeatCount="indefinite" /></circle>
+            <circle cx="500" cy="150" r="3.5" fill="#c084fc"><animate attributeName="cy" values="150;170;150" dur="4s" repeatCount="indefinite" /></circle>
+            <circle cx="650" cy="100" r="4" fill="#818cf8"><animate attributeName="cx" values="650;630;650" dur="6s" repeatCount="indefinite" /></circle>
+            <circle cx="720" cy="250" r="3" fill="#a78bfa"><animate attributeName="cy" values="250;230;250" dur="5s" repeatCount="indefinite" /></circle>
+            <circle cx="100" cy="350" r="3.5" fill="#c084fc"><animate attributeName="cx" values="100;120;100" dur="7s" repeatCount="indefinite" /></circle>
+            <circle cx="250" cy="400" r="4" fill="#818cf8"><animate attributeName="cy" values="400;380;400" dur="4.5s" repeatCount="indefinite" /></circle>
+            <circle cx="400" cy="300" r="5" fill="#a78bfa"><animate attributeName="cx" values="400;420;400" dur="8s" repeatCount="indefinite" /></circle>
+            <circle cx="550" cy="380" r="3" fill="#818cf8"><animate attributeName="cy" values="380;360;380" dur="5.5s" repeatCount="indefinite" /></circle>
+            <circle cx="700" cy="420" r="4" fill="#c084fc"><animate attributeName="cx" values="700;680;700" dur="6.5s" repeatCount="indefinite" /></circle>
+            <circle cx="150" cy="250" r="3" fill="#818cf8"><animate attributeName="cy" values="250;270;250" dur="5s" repeatCount="indefinite" /></circle>
+            <circle cx="450" cy="450" r="3.5" fill="#a78bfa"><animate attributeName="cx" values="450;430;450" dur="7s" repeatCount="indefinite" /></circle>
+            <circle cx="600" cy="50" r="3" fill="#c084fc"><animate attributeName="cy" values="50;70;50" dur="4s" repeatCount="indefinite" /></circle>
+
+            {/* Connections */}
+            <line x1="80" y1="100" x2="200" y2="200" stroke="#818cf8" strokeWidth="0.5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite" /></line>
+            <line x1="200" y1="200" x2="350" y2="80" stroke="#a78bfa" strokeWidth="0.5" opacity="0.4"><animate attributeName="opacity" values="0.4;0.1;0.4" dur="5s" repeatCount="indefinite" /></line>
+            <line x1="350" y1="80" x2="500" y2="150" stroke="#818cf8" strokeWidth="0.5" opacity="0.5"><animate attributeName="opacity" values="0.5;0.2;0.5" dur="6s" repeatCount="indefinite" /></line>
+            <line x1="500" y1="150" x2="650" y2="100" stroke="#c084fc" strokeWidth="0.5" opacity="0.4"><animate attributeName="opacity" values="0.4;0.1;0.4" dur="4.5s" repeatCount="indefinite" /></line>
+            <line x1="650" y1="100" x2="720" y2="250" stroke="#818cf8" strokeWidth="0.5" opacity="0.5"><animate attributeName="opacity" values="0.5;0.2;0.5" dur="5.5s" repeatCount="indefinite" /></line>
+            <line x1="100" y1="350" x2="250" y2="400" stroke="#a78bfa" strokeWidth="0.5" opacity="0.4"><animate attributeName="opacity" values="0.4;0.1;0.4" dur="6s" repeatCount="indefinite" /></line>
+            <line x1="250" y1="400" x2="400" y2="300" stroke="#818cf8" strokeWidth="0.5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="5s" repeatCount="indefinite" /></line>
+            <line x1="400" y1="300" x2="550" y2="380" stroke="#c084fc" strokeWidth="0.5" opacity="0.4"><animate attributeName="opacity" values="0.4;0.1;0.4" dur="7s" repeatCount="indefinite" /></line>
+            <line x1="550" y1="380" x2="700" y2="420" stroke="#818cf8" strokeWidth="0.5" opacity="0.5"><animate attributeName="opacity" values="0.5;0.2;0.5" dur="4s" repeatCount="indefinite" /></line>
+            <line x1="150" y1="250" x2="350" y2="80" stroke="#a78bfa" strokeWidth="0.5" opacity="0.3"><animate attributeName="opacity" values="0.3;0.1;0.3" dur="6s" repeatCount="indefinite" /></line>
+            <line x1="200" y1="200" x2="400" y2="300" stroke="#818cf8" strokeWidth="0.5" opacity="0.4"><animate attributeName="opacity" values="0.4;0.1;0.4" dur="5s" repeatCount="indefinite" /></line>
+            <line x1="500" y1="150" x2="400" y2="300" stroke="#c084fc" strokeWidth="0.5" opacity="0.3"><animate attributeName="opacity" values="0.3;0.1;0.3" dur="7s" repeatCount="indefinite" /></line>
+            <line x1="80" y1="100" x2="150" y2="250" stroke="#818cf8" strokeWidth="0.5" opacity="0.4"><animate attributeName="opacity" values="0.4;0.2;0.4" dur="5.5s" repeatCount="indefinite" /></line>
+            <line x1="450" y1="450" x2="550" y2="380" stroke="#a78bfa" strokeWidth="0.5" opacity="0.4"><animate attributeName="opacity" values="0.4;0.1;0.4" dur="4.5s" repeatCount="indefinite" /></line>
+            <line x1="600" y1="50" x2="650" y2="100" stroke="#c084fc" strokeWidth="0.5" opacity="0.5"><animate attributeName="opacity" values="0.5;0.2;0.5" dur="6s" repeatCount="indefinite" /></line>
+            <line x1="720" y1="250" x2="700" y2="420" stroke="#818cf8" strokeWidth="0.5" opacity="0.3"><animate attributeName="opacity" values="0.3;0.1;0.3" dur="5s" repeatCount="indefinite" /></line>
+
+            {/* Traveling pulses along connections */}
+            <circle r="2" fill="#818cf8" opacity="0.8"><animateMotion dur="3s" repeatCount="indefinite" path="M80,100 L200,200" /></circle>
+            <circle r="2" fill="#a78bfa" opacity="0.8"><animateMotion dur="4s" repeatCount="indefinite" path="M350,80 L500,150" /></circle>
+            <circle r="2" fill="#c084fc" opacity="0.8"><animateMotion dur="3.5s" repeatCount="indefinite" path="M400,300 L550,380" /></circle>
+            <circle r="1.5" fill="#818cf8" opacity="0.7"><animateMotion dur="5s" repeatCount="indefinite" path="M200,200 L400,300" /></circle>
+            <circle r="1.5" fill="#a78bfa" opacity="0.7"><animateMotion dur="4.5s" repeatCount="indefinite" path="M650,100 L720,250" /></circle>
+          </svg>
+        </div>
+
+        <div className="relative z-10">
         <div className="text-6xl mb-5 animate-bounce-slow">🧠</div>
         <h1 className="text-5xl md:text-7xl font-extrabold mb-5 animate-title">
           <span className="inline-block animate-letter" style={{ animationDelay: "0ms" }}>A</span>
@@ -104,6 +151,7 @@ export default function HomePage() {
         <p className="text-sm md:text-base text-slate-500 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "900ms" }}>
           Master AI, Machine Learning, Transformers, LLMs, RAG, Fine-Tuning and Deep Learning with simple interactive lessons.
         </p>
+        </div>
       </section>
 
       <div className="max-w-6xl mx-auto px-4 pb-16">
