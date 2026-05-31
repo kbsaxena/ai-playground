@@ -305,6 +305,54 @@ export default function HomePage() {
             )}
           </div>
         </section>
+
+        {/* Resources - Read More */}
+        <section className="mb-12">
+          <div className="flex items-center gap-2 mb-5">
+            <span className="text-xl">📚</span>
+            <span className="text-sm font-semibold text-slate-300">Resources &amp; Further Reading</span>
+            <div className="flex-1 h-px bg-slate-800 ml-3" />
+          </div>
+          <p className="text-xs text-slate-500 mb-4 ml-1">Want to go deeper? Here are the best free resources to continue learning.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <a href="https://www.3blue1brown.com/topics/neural-networks" target="_blank" rel="noopener noreferrer" className="group rounded-xl bg-slate-900/70 border border-slate-700/40 p-4 hover:border-indigo-500/40 hover:bg-slate-800/80 transition-all">
+              <h4 className="text-sm font-semibold text-white mb-1 group-hover:text-indigo-300">3Blue1Brown — Neural Networks</h4>
+              <p className="text-[11px] text-slate-500">The best visual explanation of neural networks on YouTube. Beautiful animations.</p>
+            </a>
+            <a href="https://jalammar.github.io/illustrated-transformer/" target="_blank" rel="noopener noreferrer" className="group rounded-xl bg-slate-900/70 border border-slate-700/40 p-4 hover:border-indigo-500/40 hover:bg-slate-800/80 transition-all">
+              <h4 className="text-sm font-semibold text-white mb-1 group-hover:text-indigo-300">The Illustrated Transformer</h4>
+              <p className="text-[11px] text-slate-500">Jay Alammar&apos;s legendary visual guide to how transformers work step by step.</p>
+            </a>
+            <a href="https://karpathy.ai/zero-to-hero.html" target="_blank" rel="noopener noreferrer" className="group rounded-xl bg-slate-900/70 border border-slate-700/40 p-4 hover:border-indigo-500/40 hover:bg-slate-800/80 transition-all">
+              <h4 className="text-sm font-semibold text-white mb-1 group-hover:text-indigo-300">Karpathy — Neural Networks: Zero to Hero</h4>
+              <p className="text-[11px] text-slate-500">Build GPT from scratch. The best free course for understanding LLMs deeply.</p>
+            </a>
+            <a href="https://huggingface.co/learn/nlp-course" target="_blank" rel="noopener noreferrer" className="group rounded-xl bg-slate-900/70 border border-slate-700/40 p-4 hover:border-indigo-500/40 hover:bg-slate-800/80 transition-all">
+              <h4 className="text-sm font-semibold text-white mb-1 group-hover:text-indigo-300">Hugging Face NLP Course</h4>
+              <p className="text-[11px] text-slate-500">Free hands-on course covering transformers, fine-tuning, and NLP with code.</p>
+            </a>
+            <a href="https://www.deeplearning.ai/short-courses/" target="_blank" rel="noopener noreferrer" className="group rounded-xl bg-slate-900/70 border border-slate-700/40 p-4 hover:border-indigo-500/40 hover:bg-slate-800/80 transition-all">
+              <h4 className="text-sm font-semibold text-white mb-1 group-hover:text-indigo-300">DeepLearning.AI Short Courses</h4>
+              <p className="text-[11px] text-slate-500">Free 1-hour courses on RAG, LangChain, fine-tuning, agents, and more by Andrew Ng.</p>
+            </a>
+            <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer" className="group rounded-xl bg-slate-900/70 border border-slate-700/40 p-4 hover:border-indigo-500/40 hover:bg-slate-800/80 transition-all">
+              <h4 className="text-sm font-semibold text-white mb-1 group-hover:text-indigo-300">Attention Is All You Need (Paper)</h4>
+              <p className="text-[11px] text-slate-500">The 2017 paper that started it all. The original Transformer architecture.</p>
+            </a>
+            <a href="https://lilianweng.github.io/" target="_blank" rel="noopener noreferrer" className="group rounded-xl bg-slate-900/70 border border-slate-700/40 p-4 hover:border-indigo-500/40 hover:bg-slate-800/80 transition-all">
+              <h4 className="text-sm font-semibold text-white mb-1 group-hover:text-indigo-300">Lilian Weng&apos;s Blog</h4>
+              <p className="text-[11px] text-slate-500">In-depth posts on diffusion models, RLHF, RAG, agents, and more. OpenAI researcher.</p>
+            </a>
+            <a href="https://course.fast.ai/" target="_blank" rel="noopener noreferrer" className="group rounded-xl bg-slate-900/70 border border-slate-700/40 p-4 hover:border-indigo-500/40 hover:bg-slate-800/80 transition-all">
+              <h4 className="text-sm font-semibold text-white mb-1 group-hover:text-indigo-300">fast.ai — Practical Deep Learning</h4>
+              <p className="text-[11px] text-slate-500">Free course that teaches deep learning top-down. Build things first, theory later.</p>
+            </a>
+            <a href="https://github.com/mlabonne/llm-course" target="_blank" rel="noopener noreferrer" className="group rounded-xl bg-slate-900/70 border border-slate-700/40 p-4 hover:border-indigo-500/40 hover:bg-slate-800/80 transition-all">
+              <h4 className="text-sm font-semibold text-white mb-1 group-hover:text-indigo-300">LLM Course (GitHub)</h4>
+              <p className="text-[11px] text-slate-500">Complete roadmap to learn LLMs from scratch — fundamentals to production deployment.</p>
+            </a>
+          </div>
+        </section>
       </div>
 
       {/* Footer */}
