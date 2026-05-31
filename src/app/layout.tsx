@@ -4,7 +4,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "AI Playground – Learn AI, Machine Learning, LLMs & RAG Visually",
   description:
-    "Master AI, Machine Learning, Transformers, LLMs, RAG, Fine-Tuning and Deep Learning with simple interactive visualizations. No math, no code — just play and understand.",
+    "Master AI, Machine Learning, Transformers, LLMs, RAG, Fine-Tuning and Deep Learning with simple interactive visualizations. No math, no code — just play and understand. By Kulbhushan Saxena.",
+  authors: [{ name: "Kulbhushan Saxena" }],
   icons: {
     icon: "/icon.svg",
   },

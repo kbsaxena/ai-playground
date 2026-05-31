@@ -1,5 +1,7 @@
 # 🧠 AI Playground
 
+> By **Kulbhushan Saxena (KB)**
+
 **Learn Artificial Intelligence & Machine Learning Through Interactive Visualizations**
 
 Master AI, Machine Learning, Transformers, LLMs, RAG, Fine-Tuning and Deep Learning with simple interactive lessons. No math, no code — just play and understand.
@@ -184,4 +186,4 @@ MIT
 
 ---
 
-Built with ❤️ to make AI understandable for everyone.
+Built with ❤️ by **Kulbhushan Saxena (KB)** to make AI understandable for everyone.

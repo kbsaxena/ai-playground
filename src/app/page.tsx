@@ -357,7 +357,7 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="text-center pb-8 text-xs text-slate-600">
-        Built to make AI understandable for everyone 🌍
+        Built by <span className="text-slate-400 font-medium">Kulbhushan Saxena (KB)</span> · Making AI understandable for everyone 🌍
       </footer>
     </main>
   );
